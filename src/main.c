@@ -3,11 +3,17 @@
 
 int main(int argc, char **argv)
 {
-	printf("Hello Welcome to EMPOERHR\n");
-	printf("=========================\n");
-	printf("Please mr select one of this options");
+	char user_option;
+    
+    printf("Hello Welcome to EMPOERHR\n");
+	printf("=========================\n\n\n");
 
 	printf("[a] -> Adding new employee details\n");
-	printf("[b] -> Displaying all existing ones\n");
+	printf("[b] -> Displaying all existing ones\n\n");
+
+    printf("Please mr select one of this options : ");
+    scanf("%c", &user_option);
+
+    options_handler(user_option);
 	return (0);
 }
