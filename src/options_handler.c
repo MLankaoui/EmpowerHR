@@ -6,12 +6,12 @@ void options_handler(char c)
 {
 	if (c == 'a')
 	{
-
+        addEmployee(emplyees *employee);
 	}
 
 	if (c == 'b')
 	{
-
+        
 	}
 
 	while (c != 'a' || c != 'b')
