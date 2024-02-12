@@ -1,12 +1,15 @@
 #include "../includes/main.h"
 #include "../includes/prototypes.h"
 #include "../includes/structs.h"
+#include "../includes/global_variables.h"
 
 void options_handler(char c)
 {
 	if (c == 'a')
 	{
-        addEmployee(*employee);
+		printf("please enter number of employees : ");
+		scanf("%d", &number_of_employees_to_add)
+        addEmployee(*employee, number_of_employees_to_add);
 	}
 
 	if (c == 'b')

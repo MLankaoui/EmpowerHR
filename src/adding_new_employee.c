@@ -1,12 +1,13 @@
 #include "../includes/main.h"
+#include "../includes/prototypes.h"
 #include "../includes/structs.h"
 #include "../includes/global_variables.h"
 
-void addEmployee(emplyees *employee)
+void addEmployee(emplyees *employee, int n);
 {
 	int i;
 
-	for (i = 0; i < number_of_employees_to_add; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("enter employee name : ");
 		scanf("%s", employee->name);
