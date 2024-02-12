@@ -2,6 +2,10 @@
     "files.associations": {
         "stdio.h": "c",
         "stdlib.h": "c",
-        "main.h": "c"
+        "main.h": "c",
+        "global_variables.h": "c",
+        "string.h": "c",
+        "prototypes.h": "c",
+        "structs.h": "c"
     }
 }

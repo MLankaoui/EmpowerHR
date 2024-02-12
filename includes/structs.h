@@ -4,7 +4,7 @@
 typedef struct emplyees {
 	char name[100];
 
-	unsigned int ID;
+	int ID;
 
 	char departement[100];
 
