@@ -8,7 +8,7 @@ typedef struct emplyees {
 
 	char departement[100];
 
-	float annualSalary;
+	float annual_salary;
 
 } emplyees;
 

@@ -2,6 +2,6 @@
 #define PROTOYPES_H
 
 void options_handler(char c);
-void addEmployee();
+void addEmployee(emplyees *employee);
 
 #endif

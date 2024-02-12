@@ -6,7 +6,7 @@ void options_handler(char c)
 {
 	if (c == 'a')
 	{
-        addEmployee(emplyees *employee);
+        addEmployee(*employee);
 	}
 
 	if (c == 'b')
